@@ -1,0 +1,5 @@
+Hospital Patient Triage & Bed Allocator
+Scheduling Simulation Report
+Generated: May  8 2026
+
+No patients were admitted.
