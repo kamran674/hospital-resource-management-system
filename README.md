@@ -2,8 +2,6 @@
 
 A Linux-based Operating Systems semester project that simulates a real-world hospital emergency room using core OS concepts such as process management, inter-process communication (IPC), CPU scheduling, synchronization, threading, semaphores, shared memory, and memory allocation strategies.
 
-This project was developed for the **CL2006 – Operating Systems Lab (Spring 2026)** at the **National University of Computer & Emerging Sciences (FAST-NUCES), Chiniot-Faisalabad Campus**.
-
 ---
 
 # Project Overview
