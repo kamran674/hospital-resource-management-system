@@ -204,7 +204,14 @@ make all
 ```bash
 make run
 ```
+## Step 1 (Only one time):
+mkfifo /tmp/triage_fifo
 
+## Step 2 - Terminal 1 (Start first):
+./admissions --strategy best < /tmp/triage_fifo
+
+## Step 3 - Terminal 2 (when process start then run this command to add patient):
+./scripts/triage.sh Ali_Hassan 55 10 > /tmp/triage_fifo
 or
 
 ```bash
