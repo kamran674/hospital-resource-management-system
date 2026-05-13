@@ -1,18 +1,9 @@
 #!/bin/bash
-# ============================================================
-# Project : Hospital Patient Triage & Bed Allocator
-# Script  : stress_test.sh
-# Group   : Group XX
-# Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
-# Date    : 2026-04-01
-# Purpose : Automated stress test — spawns 20 patient arrivals
-#           in rapid succession to test concurrency & stability.
-# Usage   : ./stress_test.sh
-# ============================================================
+
 
 echo ""
 echo "╔══════════════════════════════════════════╗"
-echo "║         STRESS TEST — 20 PATIENTS       ║"
+echo "║         STRESS TEST — 20 PATIENTS        ║"
 echo "╚══════════════════════════════════════════╝"
 echo ""
 
@@ -59,5 +50,4 @@ echo "  Passed : $PASS / 20"
 echo "  Failed : $FAIL / 20"
 echo "─────────────────────────────────────────"
 echo ""
-
 

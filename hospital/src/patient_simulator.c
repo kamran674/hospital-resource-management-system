@@ -1,16 +1,3 @@
-/*
- * ============================================================
- * Project : Hospital Patient Triage & Bed Allocator
- * File    : patient_simulator.c
- * Group   : Group XX
- * Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
- * Date    : 2026-04-01
- * Purpose : Patient process — receives patient data via pipe,
- *           simulates treatment (sleep), then notifies
- *           admissions via named FIFO on discharge.
- * Compile : gcc -Wall -o patient_simulator patient_simulator.c
- * ============================================================
- */
 
 #include "hospital.h"
 

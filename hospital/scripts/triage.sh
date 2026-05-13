@@ -1,14 +1,4 @@
 #!/bin/bash
-# ============================================================
-# Project : Hospital Patient Triage & Bed Allocator
-# Script  : triage.sh
-# Group   : Group XX
-# Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
-# Date    : 2026-04-01
-# Purpose : Validate input, compute triage priority (1-5),
-#           build a PatientRecord and pipe it to admissions.
-# Usage   : ./triage.sh <name> <age> <severity 1-10> [--infectious]
-# ============================================================
 
 set -euo pipefail
 
@@ -105,4 +95,3 @@ sys.stdout.buffer.flush()
 PYEOF
 
 echo "[TRIAGE] Patient record sent to admissions." >&2
-

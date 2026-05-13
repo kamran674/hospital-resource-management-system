@@ -1,14 +1,3 @@
-/*
- * ============================================================
- * Project : Hospital Patient Triage & Bed Allocator
- * File    : hospital.h
- * Group   : Group XX
- * Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
- * Date    : 2026-04-01
- * Purpose : Shared header — all structs, constants, and macros
- * ============================================================
- */
-
 #ifndef HOSPITAL_H
 #define HOSPITAL_H
 

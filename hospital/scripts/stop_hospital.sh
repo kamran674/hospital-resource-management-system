@@ -1,22 +1,13 @@
 #!/bin/bash
-# ============================================================
-# Project : Hospital Patient Triage & Bed Allocator
-# Script  : stop_hospital.sh
-# Group   : Group XX
-# Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
-# Date    : 2026-04-01
-# Purpose : Gracefully shut down the hospital — send SIGTERM,
-#           clean up all IPC resources, print final summary.
-# Usage   : ./stop_hospital.sh
-# ============================================================
+
 
 PID_FILE="/tmp/hospital_admissions.pid"
 FIFO="/tmp/discharge_fifo"
 
 echo ""
 echo "╔══════════════════════════════════════════╗"
-echo "║    HOSPITAL PATIENT TRIAGE SYSTEM       ║"
-echo "║         SHUTTING DOWN...                ║"
+echo "║    HOSPITAL PATIENT TRIAGE SYSTEM        ║"
+echo "║         SHUTTING DOWN...                 ║"
 echo "╚══════════════════════════════════════════╝"
 echo ""
 
@@ -82,5 +73,4 @@ fi
 echo "─────────────────────────────────────────────"
 echo "[STOP] Hospital is CLOSED. Goodbye."
 echo ""
-
 

@@ -1,14 +1,3 @@
-/*
- * ============================================================
- * Project : Hospital Patient Triage & Bed Allocator
- * File    : scheduler.c
- * Group   : Group XX
- * Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
- * Date    : 2026-04-01
- * Purpose : Priority queue (min-heap) + scheduling algorithm
- *           simulations: FCFS, SJF, Priority, Round Robin.
- * ============================================================
- */
 
 #include "hospital.h"
 

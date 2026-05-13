@@ -1,16 +1,3 @@
-/*
- * ============================================================
- * Project : Hospital Patient Triage & Bed Allocator
- * File    : admissions.c
- * Group   : Group XX
- * Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
- * Date    : 2026-04-01
- * Purpose : Central admissions manager — process spawning,
- *           IPC, thread pool, scheduling, and bed allocation.
- * Compile : gcc -Wall -o admissions admissions.c bed_allocator.c \
- *                      scheduler.c -lpthread
- * ============================================================
- */
 
 #include "hospital.h"
 #include <sys/mman.h>
@@ -520,10 +507,10 @@ int main(int argc, char *argv[]) {
     /* Initialize priority queue */
     pq_init(&g_queue);
 
-    printf("\n╔══════════════════════════════════════╗\n");
-    printf("║   HOSPITAL PATIENT TRIAGE SYSTEM    ║\n");
-    printf("║         ADMISSIONS MANAGER          ║\n");
-    printf("╚══════════════════════════════════════╝\n\n");
+    printf("\n╔═══════════════════════════════════════╗\n");
+    printf("║   HOSPITAL PATIENT TRIAGE SYSTEM       ║\n");
+    printf("║         ADMISSIONS MANAGER             ║\n");
+    printf("╚════════════════════════════════════════╝\n\n");
 
     /* Launch thread pool */
     pthread_t t_receptionist, t_scheduler;

@@ -1,16 +1,3 @@
-/*
- * ============================================================
- * Project : Hospital Patient Triage & Bed Allocator
- * File    : bed_allocator.c
- * Group   : Group XX
- * Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
- * Date    : 2026-04-01
- * Purpose : Memory management — Best-Fit / First-Fit / Worst-Fit
- *           allocation, coalescing, fragmentation reporting,
- *           and paging simulation.
- * Compile : (linked into admissions via Makefile)
- * ============================================================
- */
 
 #include "hospital.h"
 
@@ -34,7 +21,7 @@ static const char *bed_type_for(PatientRecord *p) {
    print_ward_map — visual of ward memory block
    ──────────────────────────────────────────────── */
 void print_ward_map(SharedWard *ward) {
-    printf("\n╔══════════════════ WARD MAP ══════════════════╗\n");
+    printf("\n╔════════════════════════════════════ WARD MAP ════════════════════════════════════╗\n");
     printf("  Unit: ");
     for (int i = 0; i < TOTAL_CARE_UNITS; i++) printf("%3d", i);
     printf("\n  Occ:  ");
@@ -42,7 +29,7 @@ void print_ward_map(SharedWard *ward) {
         if (ward->ward[i] == -1) printf("  .");
         else                     printf("%3d", ward->ward[i]);
     }
-    printf("\n╚══════════════════════════════════════════════╝\n\n");
+    printf("\n╚══════════════════════════════════════════════════════════════════════════════════╝\n\n");
 }
 
 /* ────────────────────────────────────────────────

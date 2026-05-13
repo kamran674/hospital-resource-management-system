@@ -1,14 +1,5 @@
 #!/bin/bash
-# ============================================================
-# Project : Hospital Patient Triage & Bed Allocator
-# Script  : start_hospital.sh
-# Group   : Group XX
-# Members : Member1 (24F-XXXX), Member2 (24F-YYYY), Member3 (24F-ZZZZ)
-# Date    : 2026-04-01
-# Purpose : Initialize IPC resources and launch the admissions
-#           manager process in the background.
-# Usage   : ./start_hospital.sh [--strategy best|first|worst]
-# ============================================================
+
 
 set -euo pipefail
 
@@ -20,8 +11,8 @@ LOG_DIR="logs"
 # ── Banner ──
 echo ""
 echo "╔══════════════════════════════════════════╗"
-echo "║    HOSPITAL PATIENT TRIAGE SYSTEM       ║"
-echo "║         STARTING UP...                  ║"
+echo "║    HOSPITAL PATIENT TRIAGE SYSTEM        ║"
+echo "║         STARTING UP...                   ║"
 echo "╚══════════════════════════════════════════╝"
 echo ""
 echo "  ICU Beds       : 4  (care units = 3 each)"
